@@ -1,0 +1,40 @@
+@media only screen and (max-width: 480px) {
+    body {
+        padding-top: 5rem;
+    }
+    header>.logo {
+        margin: 0 0 2rem 0;
+    }
+    .wrapper>header.special {
+        padding: 2rem 2rem;
+    }
+    .wrapper>header h2:after {
+        width: 60%;
+    }
+    .wrapper.style1 .content {
+        padding: 0 1.5rem;
+        opacity: 0.5;
+    }
+    .wrapper.style2 {
+        padding: 2em;
+    }
+    .gallery {
+        flex-direction: column;
+    }
+    .gallery>* {
+        width: 100%;
+    }
+    .spotlight {
+        flex-direction: column;
+    }
+    .spotlight>* {
+        width: 100%;
+    }
+    .spotlight .inner {
+        padding: 1em 2rem;
+        text-align: center;
+    }
+    .spotlight .inner p {
+        opacity: 0.6;
+    }
+}
